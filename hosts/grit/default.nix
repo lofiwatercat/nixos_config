@@ -24,6 +24,8 @@
     ardour
   ];
 
+  users.users.alan.isNormalUser = true;
+
   # fonts.packages = with pkgs; [
   #   noto-fonts
   #   noto-fonts-cjk
@@ -45,4 +47,5 @@
     enable = true;
     wlr.enable = true;
   };
+
 }
