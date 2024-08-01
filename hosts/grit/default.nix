@@ -24,7 +24,10 @@
     ardour
   ];
 
-  users.users.alan.isNormalUser = true;
+  users.users.alan = {
+    isNormalUser = true;
+    extraGroups = ["wheel" "networkmanager" ];
+  }
 
   # fonts.packages = with pkgs; [
   #   noto-fonts
