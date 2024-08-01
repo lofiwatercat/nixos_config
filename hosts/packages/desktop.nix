@@ -9,5 +9,7 @@
     waybar
     zathura
     firefox
+
+    pulseaudio
   ];
 }
