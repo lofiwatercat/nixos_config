@@ -23,12 +23,17 @@
   environment.systemPackages = with pkgs; [
   ];
 
+  environment.sessionVariables = {
+    EDITOR = "hx";
+    TERMINAL = "foot";
+  };
+
   users.users.alan = {
     isNormalUser = true;
     extraGroups = ["wheel" "networkmanager" ];
   };
 
-  nixpkgs.config.allowunfree = true;
+  nixpkgs.config.allowUnfree = true;
 
   hardware = {
     opengl.enable = true;
