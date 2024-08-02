@@ -13,6 +13,7 @@
     # Cli and desktop packages
     ../packages/cli.nix
     ../packages/desktop.nix
+    ../packages/ardour.nix
   ];
 
   networking = {
