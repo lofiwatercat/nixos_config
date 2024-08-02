@@ -27,7 +27,7 @@
   users.users.alan = {
     isNormalUser = true;
     extraGroups = ["wheel" "networkmanager" ];
-  }
+  };
 
   # fonts.packages = with pkgs; [
   #   noto-fonts
