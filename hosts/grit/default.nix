@@ -28,13 +28,7 @@
     extraGroups = ["wheel" "networkmanager" ];
   };
 
-  # fonts.packages = with pkgs; [
-  #   noto-fonts
-  #   noto-fonts-cjk
-  #   noto-fonts-emoji
-
-  #   nerdfonts
-  # ];
+  nixpkgs.config.allowunfree = true;
 
   hardware = {
     opengl.enable = true;
