@@ -33,8 +33,9 @@
           "XF86AudioLowerVolume" = "exec pactl set-sink-volume @DEFAULT_SINK@ -5%";
       };
       startup = [
-        { command = "swww init"; }
-        { command = "swww img $HOME/.config/wallpapers/anime-gruv-light.png"; }
+        { command = "wbg $HOME/.config/wallpapers/laser_pointer.png"; }
+        # { command = "swww init"; }
+        # { command = "swww img $HOME/.config/wallpapers/anime-gruv-light.png"; }
       ];
     };
   };

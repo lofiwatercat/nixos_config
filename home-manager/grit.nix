@@ -9,5 +9,19 @@
     ./dotfiles/helix.nix
   ];
 
-  home.stateVersion = "23.05";
+  home.file.".config/wallpapers" = {
+    source = ./dotfiles/wallpapers;
+    recursive = true;
+  };
+
+  home = {
+    username = "alan";
+    homeDirectory = "/home/alan";
+    stateVersion = "23.05";
+    sessionVariables = {
+      EDITOR = "hx";
+      TERMINAL = "foot";
+      WINIT_UNIX_BACKEND = "wayland";
+    };
+  };
 }

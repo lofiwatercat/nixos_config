@@ -3,7 +3,10 @@
   ...
 }:
 {
+  # Packages for a wayland desktop system
   environment.systemPackages = with pkgs; [
+    sway 
+
     foot
     fuzzel
     waybar
@@ -11,5 +14,7 @@
     firefox
 
     pulseaudio
+
+    wbg
   ];
 }
