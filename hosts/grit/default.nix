@@ -9,6 +9,7 @@
     ../options/systemd-boot.nix
     ../options/wireless.nix
     ../options/fonts.nix
+    ../options/steam.nix
 
     # Cli and desktop packages
     ../packages/cli.nix
@@ -22,6 +23,8 @@
 
   environment.systemPackages = with pkgs; [
   ];
+
+  services.flatpak.enable = true;
 
   environment.sessionVariables = {
     EDITOR = "hx";
