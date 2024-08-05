@@ -15,6 +15,7 @@
     ../packages/cli.nix
     ../packages/desktop.nix
     ../packages/ardour.nix
+    ../packages/krita.nix
   ];
 
   networking = {

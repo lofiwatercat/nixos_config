@@ -8,6 +8,6 @@
 
     # Instruments
     distrho
-    # cardinal
+    cardinal
   ];
 }
