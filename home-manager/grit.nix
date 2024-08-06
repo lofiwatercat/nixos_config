@@ -7,6 +7,7 @@
     ./dotfiles/foot.nix
     ./dotfiles/waybar.nix
     ./dotfiles/helix.nix
+    ./dotfiles/git.nix
   ];
 
   home.file.".config/wallpapers" = {
