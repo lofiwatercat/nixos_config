@@ -10,6 +10,7 @@
     ../options/wireless.nix
     ../options/fonts.nix
     ../options/steam.nix
+    ../options/printing.nix
 
     # Cli and desktop packages
     ../packages/cli.nix
@@ -21,6 +22,8 @@
   networking = {
     hostName = "grit";
   };
+
+  time.timeZone = "America/Los_Angeles";
 
   environment.systemPackages = with pkgs; [
   ];
