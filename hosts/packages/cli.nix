@@ -16,5 +16,6 @@
     eza
     ripgrep
     fd
+    yazi
   ];
 }

@@ -17,6 +17,7 @@
     ../packages/desktop.nix
     ../packages/ardour.nix
     ../packages/krita.nix
+    ../packages/bottles.nix
   ];
 
   networking = {
