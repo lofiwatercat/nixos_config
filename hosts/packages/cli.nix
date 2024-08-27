@@ -8,8 +8,7 @@
     helix
     rust-analyzer
     markdown-oxide
-    
-    
+
     starship
     bat
     git
