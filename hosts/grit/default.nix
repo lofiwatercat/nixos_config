@@ -19,6 +19,7 @@
     ../packages/krita.nix
     ../packages/bottles.nix
     ../packages/lutris.nix
+    ../packages/minecraft.nix
   ];
 
   networking = {
