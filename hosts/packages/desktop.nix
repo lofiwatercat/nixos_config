@@ -17,5 +17,9 @@
     pulseaudio
 
     wbg
+
+    grim
+    slurp
+    wl-clipboard
   ];
 }

@@ -16,5 +16,6 @@
     ripgrep
     fd
     yazi
+    zellij
   ];
 }

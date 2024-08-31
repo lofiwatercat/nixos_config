@@ -11,6 +11,7 @@
     ../options/fonts.nix
     ../options/steam.nix
     ../options/printing.nix
+    ../options/keyd.nix
 
     # Cli and desktop packages
     ../packages/cli.nix
@@ -20,6 +21,7 @@
     ../packages/bottles.nix
     ../packages/lutris.nix
     ../packages/minecraft.nix
+    ../packages/keyd.nix
   ];
 
   networking = {
@@ -42,7 +44,7 @@
 
   users.users.alan = {
     isNormalUser = true;
-    extraGroups = ["wheel" "networkmanager" ];
+    extraGroups = ["wheel" "networkmanager" "input"];
   };
 
   nixpkgs.config.allowUnfree = true;

@@ -8,6 +8,7 @@
     ./dotfiles/waybar.nix
     ./dotfiles/helix.nix
     ./dotfiles/git.nix
+    ./dotfiles/zellij.nix
   ];
 
   home.file.".config/wallpapers" = {
