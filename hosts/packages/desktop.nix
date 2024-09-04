@@ -5,7 +5,7 @@
 {
   # Packages for a wayland desktop system
   environment.systemPackages = with pkgs; [
-    # river
+    river
     sway 
 
     foot
@@ -21,5 +21,7 @@
     grim
     slurp
     wl-clipboard
+
+    cups-printers
   ];
 }
