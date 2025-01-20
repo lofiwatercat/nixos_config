@@ -1,6 +1,8 @@
 # TODO
 Move users in hosts/grit/default.nix to hosts/options/users.nix
 
+# Description
+
 Simple nixos configuration. Entry point is flake.nix. 
 There is only one system, grit, but more can be added.
 ./hosts/options has modular system options which can be shared among different systems.
