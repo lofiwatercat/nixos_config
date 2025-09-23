@@ -21,7 +21,7 @@
     overlays = import ./overlays {inherit inputs;};
 
     # NixOS configuration entrypoint
-    # Available through 'nixos-rebuild --flake .#your-hostname'
+    # Available through 'nixos-rebuild --flake switch .#your-hostname'
     nixosConfigurations = {
       grit = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";

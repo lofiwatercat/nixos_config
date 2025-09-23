@@ -7,7 +7,7 @@
     ardour
 
     # Instruments
-    distrho
-    cardinal
+    #distrho
+    #cardinal
   ];
 }

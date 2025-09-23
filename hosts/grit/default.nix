@@ -12,11 +12,12 @@
     ../options/steam.nix
     ../options/printing.nix
     ../options/keyd.nix
+    ../options/cosmic.nix
 
     # Cli and desktop packages
     ../packages/cli.nix
     ../packages/desktop.nix
-    ../packages/ardour.nix
+    #../packages/ardour.nix
     ../packages/krita.nix
     ../packages/bottles.nix
     ../packages/lutris.nix
@@ -50,7 +51,7 @@
   nixpkgs.config.allowUnfree = true;
 
   hardware = {
-    opengl.enable = true;
+    graphics.enable = true;
     opentabletdriver.enable = true;
     bluetooth = {
       enable = true;
