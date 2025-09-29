@@ -9,5 +9,6 @@
     noto-fonts-emoji
 
     # nerdfonts
+    nerd-fonts.noto
   ];
 }

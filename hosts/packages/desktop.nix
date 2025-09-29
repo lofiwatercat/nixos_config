@@ -5,7 +5,7 @@
 {
   # Packages for a wayland desktop system
   environment.systemPackages = with pkgs; [
-    river
+    river-classic
     sway 
 
     foot
