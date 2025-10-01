@@ -17,7 +17,9 @@
     # Cli and desktop packages
     ../packages/cli.nix
     ../packages/desktop.nix
-    #../packages/ardour.nix
+    ../packages/ardour.nix
+    ../packages/frescobaldi.nix
+    ../packages/libresprite.nix
     ../packages/krita.nix
     ../packages/bottles.nix
     ../packages/lutris.nix

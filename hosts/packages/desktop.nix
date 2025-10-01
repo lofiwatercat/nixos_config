@@ -20,6 +20,7 @@
 
     grim
     slurp
+    swayimg
     wl-clipboard
 
     cups-printers

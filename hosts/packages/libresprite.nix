@@ -4,11 +4,6 @@
 }:
 {
   environment.systemPackages = with pkgs; [
-    ardour
-
-    # Instruments
-    #distrho
-    #cardinal
-    vital
+    libresprite
   ];
 }
