@@ -19,6 +19,8 @@
     ../packages/desktop.nix
     ../packages/ardour.nix
     # ../packages/frescobaldi.nix
+    ../packages/discord.nix
+    ../packages/lilypond.nix
     ../packages/libresprite.nix
     ../packages/krita.nix
     ../packages/bottles.nix
