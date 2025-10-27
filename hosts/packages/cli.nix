@@ -17,5 +17,6 @@
     fd
     yazi
     zellij
+    unzip
   ];
 }

@@ -13,6 +13,7 @@
     ../options/printing.nix
     ../options/keyd.nix
     ../options/cosmic.nix
+    ../options/bash.nix
 
     # Cli and desktop packages
     ../packages/cli.nix
