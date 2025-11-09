@@ -13,4 +13,8 @@
     enable = true;
     capSysNice = true;
   };
+
+  environment.systemPackages = with pkgs; [
+    steam-run    
+  ];
 }

@@ -29,6 +29,7 @@
     ../packages/lutris.nix
     ../packages/minecraft.nix
     ../packages/keyd.nix
+    ../packages/more_editors.nix
   ];
 
   networking = {
