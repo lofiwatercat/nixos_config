@@ -14,6 +14,7 @@
     ../options/keyd.nix
     ../options/cosmic.nix
     ../options/bash.nix
+    ../options/bluetooth.nix
 
     # Cli and desktop packages
     ../packages/cli.nix

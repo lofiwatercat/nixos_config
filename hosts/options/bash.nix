@@ -2,11 +2,11 @@
   programs.bash.shellAliases = {
     l = "ls -l";
     la = "ls -la";
-    cwd = "pwd | wl-copy";
+    cpwd = "pwd | wl-copy";
   };
 
   programs.bash.interactiveShellInit = ''
-    devshell() = {
+    devshell() {
       nix develop "github:lofiwatercat/dev_shells#$1"
     }
   '';
