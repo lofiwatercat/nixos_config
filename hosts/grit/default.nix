@@ -30,6 +30,7 @@
     ../packages/minecraft.nix
     ../packages/keyd.nix
     ../packages/more_editors.nix
+    ../packages/obs.nix
   ];
 
   networking = {
