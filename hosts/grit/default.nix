@@ -31,6 +31,8 @@
     ../packages/keyd.nix
     ../packages/more_editors.nix
     ../packages/obs.nix
+    ../packages/gearlever.nix
+    ../packages/blender.nix
   ];
 
   networking = {
