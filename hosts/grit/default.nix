@@ -33,6 +33,7 @@
     ../packages/obs.nix
     ../packages/gearlever.nix
     ../packages/blender.nix
+    ../packages/obsidian.nix
   ];
 
   networking = {
