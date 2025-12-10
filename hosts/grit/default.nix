@@ -34,6 +34,7 @@
     ../packages/gearlever.nix
     ../packages/blender.nix
     ../packages/obsidian.nix
+    ../packages/music-organization.nix
   ];
 
   networking = {
