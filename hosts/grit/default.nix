@@ -35,6 +35,7 @@
     ../packages/blender.nix
     ../packages/obsidian.nix
     ../packages/music-organization.nix
+    ../packages/fooyin.nix
   ];
 
   networking = {
