@@ -35,6 +35,7 @@
     ../packages/blender.nix
     ../packages/obsidian.nix
     ../packages/music-organization.nix
+    ../packages/wine-staging.nix
     # ../packages/fooyin.nix
   ];
 
