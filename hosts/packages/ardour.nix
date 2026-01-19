@@ -11,6 +11,6 @@
     #cardinal
     vital
     yabridge
-    yabridge-ctl
+    yabridgectl
   ];
 }
