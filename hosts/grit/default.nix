@@ -35,7 +35,7 @@
     ../packages/blender.nix
     ../packages/obsidian.nix
     ../packages/music-organization.nix
-    ../packages/fooyin.nix
+    # ../packages/fooyin.nix
   ];
 
   networking = {
@@ -50,6 +50,7 @@
   ];
 
   services.flatpak.enable = true;
+  services.udisks2.enable = true;
 
   environment.sessionVariables = {
     EDITOR = "hx";

@@ -18,5 +18,6 @@
     yazi
     zellij
     unzip
+    fzf
   ];
 }

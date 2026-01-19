@@ -10,5 +10,6 @@
     #distrho
     #cardinal
     vital
+    yabridge
   ];
 }
