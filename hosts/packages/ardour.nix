@@ -8,9 +8,10 @@
 
     # Instruments
     #distrho
-    #cardinal
+    cardinal
     vital
     yabridge
     yabridgectl
+    x42-avldrums
   ];
 }
