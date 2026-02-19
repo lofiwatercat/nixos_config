@@ -20,6 +20,7 @@
     ../packages/cli.nix
     ../packages/desktop.nix
     ../packages/ardour.nix
+    ../packages/niri.nix
     # ../packages/frescobaldi.nix
     ../packages/discord.nix
     ../packages/lilypond.nix
